@@ -22,8 +22,13 @@
                   type: h1
                   attribute:
                     style: 'margin-bottom:30px'
-                  innerHTML: yml:/../buto_data/theme/[theme]/data.yml:name
-                  
+                  innerHTML: Dev Theme
+            -
+              type: div
+              attribute:
+                class: col-md-4
+                style: 'text-align:right'
+              innerHTML:
                 -
                   type: p
                   innerHTML:
@@ -33,20 +38,6 @@
                     -
                       type: span
                       innerHTML: 'yml:/theme/[theme]/data/system.yml:version'
-            -
-              type: div
-              attribute:
-                class: col-md-4
-                style: 'text-align:center'
-              innerHTML:
-                -
-                  type: p
-                  innerHTML:
-                    -
-                      type: img
-                      attribute:
-                        src: '/theme/[theme]/logo/logo.png'
-                        style: 'width:200px'
         -
           type: div
           attribute:
@@ -57,6 +48,14 @@
               attribute:
                 class: col-md-4
               innerHTML:
+                -
+                  type: p
+                  innerHTML:
+                    -
+                      type: img
+                      attribute:
+                        src: '/theme/[theme]/logo/logo.png'
+                        style: 'width:200px'
             -
               type: div
               attribute:

@@ -2,7 +2,7 @@ settings:
   layout:
     - html
     - main
-  title: yml:/../buto_data/theme/[theme]/data.yml:name
+  title: Dev Theme
 content:
   -
     type: div

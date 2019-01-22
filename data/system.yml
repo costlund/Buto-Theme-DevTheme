@@ -3,4 +3,7 @@ support:
   -
     type: li
     innerHTML: Plugin
-about: Buto system maintain.
+  -
+    type: li
+    innerHTML: File sync
+about: Buto development tool.
