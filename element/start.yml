@@ -1,0 +1,94 @@
+-
+  type: div
+  attribute:
+    class: jumbotron
+  innerHTML:
+    -
+      type: div
+      attribute:
+        class: container
+      innerHTML:
+        -
+          type: div
+          attribute:
+            class: row
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: col-md-8
+              innerHTML:
+                -
+                  type: h1
+                  attribute:
+                    style: 'margin-bottom:30px'
+                  innerHTML: yml:/../buto_data/theme/[theme]/data.yml:name
+                  
+                -
+                  type: p
+                  innerHTML:
+                    -
+                      type: span
+                      innerHTML: 'Version:'
+                    -
+                      type: span
+                      innerHTML: 'yml:/theme/[theme]/data/system.yml:version'
+            -
+              type: div
+              attribute:
+                class: col-md-4
+                style: 'text-align:center'
+              innerHTML:
+                -
+                  type: p
+                  innerHTML:
+                    -
+                      type: img
+                      attribute:
+                        src: '/theme/[theme]/logo/logo.png'
+                        style: 'width:200px'
+        -
+          type: div
+          attribute:
+            class: row
+          innerHTML:
+            -
+              type: div
+              attribute:
+                class: col-md-4
+              innerHTML:
+            -
+              type: div
+              attribute:
+                class: col-md-4
+              innerHTML:
+                -
+                  type: h2
+                  attribute:
+                    style: 'margin-top:0px'
+                  innerHTML: Supports
+                -
+                  type: ul
+                  innerHTML: 'yml:/theme/[theme]/data/system.yml:support'
+            -
+              type: div
+              attribute:
+                class: col-md-4
+              innerHTML:
+                -
+                  type: p
+                  innerHTML: 'yml:/theme/[theme]/data/system.yml:about'
+                -
+                  type: p
+                  settings:
+                    role:
+                      item:
+                        - unknown
+                  innerHTML:
+                    -
+                      type: a
+                      attribute:
+                        class: 'btn btn-primary btn-lg'
+                        role: button
+                        onclick: "Theme.signin();"
+                      innerHTML: 'Sign in'

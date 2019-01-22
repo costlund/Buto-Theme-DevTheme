@@ -1,0 +1,6 @@
+version: '1.0'
+support:
+  -
+    type: li
+    innerHTML: Plugin
+about: Buto system maintain.

@@ -1,0 +1,22 @@
+settings:
+  layout:
+    - html
+    - main
+  title: yml:/../buto_data/theme/[theme]/data.yml:name
+content:
+  -
+    type: div
+    attribute:
+      class: row
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: col-md-12
+        innerHTML: 'yml:/theme/[theme]/element/start.yml'
+
+        
+        
+        
+        
+        

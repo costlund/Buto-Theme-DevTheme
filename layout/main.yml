@@ -1,0 +1,31 @@
+settings:
+  path: 1/innerHTML
+content:
+  -
+    type: div
+    attribute:
+      class: container-fluid
+      style: 'padding:0px'
+    innerHTML: 'yml:/theme/[theme]/element/navbar.yml'
+  -
+    type: div
+    attribute:
+      class: container
+      style: 'min-height:500px'
+    innerHTML: ''
+  -
+    type: div
+    attribute:
+      class: container
+      style: 'margin-top:10px;text-align:center'
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: row
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: col-md-12
+            innerHTML: 

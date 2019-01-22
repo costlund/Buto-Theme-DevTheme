@@ -1,0 +1,111 @@
+dump: true
+default_class: d
+default_method: home
+i18n:
+  language: sv
+  languages:
+    - sv
+plugin_modules:
+  d:
+    plugin: 'wf/doc'
+  account:
+    plugin: 'wf/account2'
+    settings:
+      allow:
+        signin: true
+        signin_method: username
+        registration: false
+        change_email: false
+        change_password: false
+        two_factor_authentication: false
+      two_factor_authentication:
+        key_timeout: 600
+      mysql: 'yml:/../buto_data/theme/[theme]/mysql.yml'
+      phpmailer: 'yml:/../buto_data/theme/[theme]/plugin_wf_account2_phpmailer.yml'
+      sms_pixie:
+        account: _
+        pwd: _
+        sender: '_'
+      on_signin:
+        script: "location.href='/';"
+      on_activate:
+        script: "location.href='/';"
+  users:
+    plugin: 'account/admin_v1'
+    settings:
+      mysql: 'yml:/../buto_data/theme/[theme]/mysql.yml'
+      admin_layout: /theme/[theme]/layout/main.yml
+  plugin_analysis:
+    plugin: 'plugin/analysis'
+    settings:
+      admin_layout: /theme/[theme]/layout/main.yml
+  sync:
+    plugin: 'lab/sync'
+    settings:
+      admin_layout: /theme/[theme]/layout/main.yml
+      url: 'http://localhost/sync'
+      filter:
+        theme: dev/theme
+        itemzzz:
+          -
+            value: '/sys/*'
+          -
+            value: '/plugin/*'
+          -
+            value: '/[web_folder]/*'
+          -
+            value: '/theme/*'
+      ip:
+        - 127.0.0.1
+      local_time: '2018-11-12 18:50:44'
+plugin:
+  i18n:
+    json_v1:
+      enabled: true
+  twitter:
+    bootstrap335v:
+      enabled: true
+  bootstrap:
+    bootswatch_v337:
+      enabled: true
+  wf:
+    bootstrapjs:
+      enabled: true
+    dom:
+      enabled: true
+    ajax:
+      enabled: true
+    callbackjson:
+      enabled: true
+    embed:
+      enabled: true
+    account2:
+      enabled: true
+events:
+  shutdown:
+    -
+      plugin: 'wf/errorhandling'
+      method: 'shutdown'
+      data:
+        alert: true
+        log: false
+        email: false
+        slack: false
+        slack_settings:
+          webhook: _
+          group: _
+  document_render_string:
+    -
+      plugin: i18n/translate_v1
+      method: translate_string
+  sys_close:
+    -
+      plugin: 'wf/dump'
+      method: dump
+
+
+
+
+
+
+
