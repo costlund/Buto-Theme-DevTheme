@@ -102,6 +102,19 @@
                   innerHTML: Mercury
                   attribute:
                     href: /buto_sys_mercury
+            -
+              type: li
+              settings:
+                role:
+                  allow: true
+                  item:
+                    - webmaster
+              innerHTML:
+                -
+                  type: a
+                  innerHTML: MySql
+                  attribute:
+                    href: /dbsync/start
         -
           type: ul
           attribute:
@@ -193,7 +206,7 @@
                 aria-hidden: true
             -
               type: span
-              innerHTML: 'globals:_SESSION/email'
+              innerHTML: 'globals:_SESSION/username'
           attribute:
             class: navbar-text
             style: 'float: right'

@@ -60,6 +60,11 @@ plugin_modules:
       local_time: '2018-11-12 18:50:44'
   i18n:
     plugin: 'i18n/json_v1'
+  dbsync:
+    plugin: 'db/sync_v1'
+    settings:
+      admin_layout: /theme/[theme]/layout/main.yml
+      item: 'yml:/../buto_data/theme/[theme]/plugin_db_sync_v1_item.yml'
 plugin:
   readme:
     parser:

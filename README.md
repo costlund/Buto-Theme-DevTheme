@@ -5,12 +5,15 @@ Theme to handle Buto development.
 Included tools are:
 - plugin/analysis
 - lab/sync
+- db/sync_v1
 
 ## External files.
 
 External files has to be in folder /../buto_data/theme/dev/theme:
 - mysql.yml
 - plugin_wf_account2_phpmailer.yml
+- plugin_db_sync_v1_item.yml'
+
 
 Check PluginWfMysql and PluginPhpMailer settings params.
 
@@ -39,4 +42,13 @@ To: _To_
 Subject: 'Account'
 Body: Body.
 WordWrap: '255' 
+```
+
+plugin_db_sync_v1_item.yml
+```
+_any_id_:
+  name: _Any_name_
+  mysql: _PluginWfMysql_settings_
+  schema:
+    - '/path/to/schema.yml'
 ```
