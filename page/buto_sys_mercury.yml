@@ -1,0 +1,29 @@
+settings:
+  layout:
+    - html
+    - main
+  title: Mercury
+content:
+  -
+    type: div
+    attribute:
+      class: row
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: col-md-12
+        innerHTML:
+          -
+            type: widget
+            data:
+              plugin: readme/parser
+              method: readme
+              data:
+                file: /sys/mercury/README.md
+
+        
+        
+        
+        
+        

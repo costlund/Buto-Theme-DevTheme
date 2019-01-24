@@ -73,7 +73,7 @@
               innerHTML:
                 -
                   type: a
-                  innerHTML: PluginAnalysis
+                  innerHTML: Plugin
                   attribute:
                     href: /plugin_analysis/start
             -
@@ -86,9 +86,22 @@
               innerHTML:
                 -
                   type: a
-                  innerHTML: LabSync
+                  innerHTML: Files
                   attribute:
                     href: /sync/start
+            -
+              type: li
+              settings:
+                role:
+                  allow: true
+                  item:
+                    - webmaster
+              innerHTML:
+                -
+                  type: a
+                  innerHTML: Mercury
+                  attribute:
+                    href: /buto_sys_mercury
         -
           type: ul
           attribute:

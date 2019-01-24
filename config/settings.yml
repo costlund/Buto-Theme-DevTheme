@@ -58,7 +58,12 @@ plugin_modules:
       ip:
         - 127.0.0.1
       local_time: '2018-11-12 18:50:44'
+  i18n:
+    plugin: 'i18n/json_v1'
 plugin:
+  readme:
+    parser:
+      enabled: true
   i18n:
     json_v1:
       enabled: true

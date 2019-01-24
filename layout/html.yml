@@ -86,6 +86,11 @@ content:
               rel: icon
               type: 'image/x-icon'
               href: '/theme/[theme]/logo/logo.png?x=2'
+          -
+            type: widget
+            data:
+              plugin: form/form_v1
+              method: include
       body:
         type: body
         innerHTML: body...
