@@ -18,7 +18,8 @@ External files has to be in folder /../buto_data/theme/dev/theme:
 Check PluginWfMysql and PluginPhpMailer settings params.
 
 
-mysql.yml
+### mysql.yml
+Plugin wf/account2 database.
 ```
 server: _server_name_or_ip_
 database: _name_of_db_
@@ -27,7 +28,8 @@ password: _password_
 ```
 
 
-plugin_wf_account2_phpmailer.yml
+### plugin_wf_account2_phpmailer.yml
+Plugin wf/account2 mail settings.
 ```
 SMTPAuth: 'true'
 SMTPSecure: ssl
@@ -44,7 +46,8 @@ Body: Body.
 WordWrap: '255' 
 ```
 
-plugin_db_sync_v1_item.yml
+### plugin_db_sync_v1_item.yml
+Plugin db/sync_v1 items.
 ```
 _any_id_:
   name: _Any_name_
