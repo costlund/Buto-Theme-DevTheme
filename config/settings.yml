@@ -45,8 +45,8 @@ plugin_modules:
       admin_layout: /theme/[theme]/layout/main.yml
       url: 'http://localhost/sync'
       filter:
-        theme: dev/theme
-        itemzzz:
+        themezzz: dev/theme
+        item:
           -
             value: '/sys/*'
           -
