@@ -67,7 +67,7 @@ plugin_modules:
       item: 'yml:/../buto_data/theme/[theme]/plugin_db_sync_v1_item.yml'
 plugin:
   readme:
-    parser:
+    yml:
       enabled: true
   i18n:
     json_v1:

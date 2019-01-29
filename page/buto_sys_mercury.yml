@@ -17,10 +17,10 @@ content:
           -
             type: widget
             data:
-              plugin: readme/parser
-              method: readme
+              plugin: readme/yml
+              method: parse
               data:
-                file: /sys/mercury/README.md
+                file: /sys/mercury/readme.yml
 
         
         
