@@ -43,7 +43,7 @@ plugin_modules:
     plugin: 'lab/sync'
     settings:
       admin_layout: /theme/[theme]/layout/main.yml
-      url: 'http://localhost/sync'
+      url: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:url'
       filter:
         themezzz: dev/theme
         item:

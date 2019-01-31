@@ -13,6 +13,7 @@ External files has to be in folder /../buto_data/theme/dev/theme:
 - mysql.yml
 - plugin_wf_account2_phpmailer.yml
 - plugin_db_sync_v1_item.yml'
+- plugin_lab_sync.yml'
 
 
 Check PluginWfMysql and PluginPhpMailer settings params.
@@ -55,3 +56,9 @@ _any_id_:
   schema:
     - '/path/to/schema.yml'
 ```
+
+### plugin_lab_sync.yml
+```
+url: http://my.syncsite.com
+```
+
