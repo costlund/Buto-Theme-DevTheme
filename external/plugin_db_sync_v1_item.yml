@@ -1,0 +1,9 @@
+_any_key_:
+  name: My local database
+  mysql:
+    server: '127.0.0.1'
+    database: 'buto'
+    user_name: 'admin'
+    password: '******'
+  schema:
+    - '/plugin/wf/account2/mysql/schema.yml'

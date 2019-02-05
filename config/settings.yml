@@ -57,7 +57,7 @@ plugin_modules:
             value: '/theme/*'
       ip:
         - 127.0.0.1
-      local_time: '2018-11-12 18:50:44'
+      local_time: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:local_time'
   i18n:
     plugin: 'i18n/json_v1'
   dbsync:
