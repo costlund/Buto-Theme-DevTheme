@@ -21,6 +21,7 @@ content:
               method: parse
               data:
                 file: /sys/mercury/readme.yml
+                save: /sys/mercury/README.md
 
         
         
