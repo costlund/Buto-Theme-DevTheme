@@ -45,16 +45,7 @@ plugin_modules:
       admin_layout: /theme/[theme]/layout/main.yml
       url: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:url'
       filter:
-        themezzz: dev/theme
-        item:
-          -
-            value: '/sys/*'
-          -
-            value: '/plugin/*'
-          -
-            value: '/[web_folder]/*'
-          -
-            value: '/theme/*'
+        theme: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:filter/theme'
       ip:
         - 127.0.0.1
       local_time: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:local_time'
