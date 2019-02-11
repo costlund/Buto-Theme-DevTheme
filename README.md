@@ -60,5 +60,8 @@ _any_id_:
 ### plugin_lab_sync.yml
 ```
 url: http://my.syncsite.com
+local_time: '2019-01-01 22:33:44'
+filter:
+  theme: my/theme
 ```
 
