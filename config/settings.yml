@@ -48,6 +48,7 @@ plugin_modules:
         theme: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:filter/theme'
       ip:
         - 127.0.0.1
+        - ::1
       local_time: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:local_time'
   i18n:
     plugin: 'i18n/json_v1'
