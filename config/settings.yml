@@ -43,13 +43,10 @@ plugin_modules:
     plugin: 'lab/sync'
     settings:
       admin_layout: /theme/[theme]/layout/main.yml
-      url: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:url'
-      filter:
-        theme: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:filter/theme'
+      theme: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:theme'
       ip:
         - 127.0.0.1
-        - ::1
-      local_time: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:local_time'
+        - '::1'
   i18n:
     plugin: 'i18n/json_v1'
   dbsync:
