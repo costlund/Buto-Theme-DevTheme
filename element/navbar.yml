@@ -104,6 +104,45 @@
                     href: /buto_sys_mercury
             -
               type: li
+              attribute:
+                class: dropdown
+              innerHTML:
+                -
+                  type: a
+                  attribute:
+                    class: dropdown-toggle
+                    data-toggle: dropdown
+                    role: button
+                    aria-haspopup: 'true'
+                    aria-expanded: 'false'
+                  innerHTML:
+                    -
+                      type: text
+                      innerHTML: Tools
+                    -
+                      type: span
+                      attribute:
+                        class: caret
+                -
+                  type: ul
+                  attribute:
+                    class: dropdown-menu
+                  innerHTML:
+                    -
+                      type: li
+                      innerHTML:
+                        -
+                          type: a
+                          innerHTML: 'HTML to YML'
+                          attribute:
+                            href: /html_to_yml/form
+                            target: _blank
+                      settings:
+                        role:
+                          item:
+                            - client
+            -
+              type: li
               settings:
                 role:
                   allow: true

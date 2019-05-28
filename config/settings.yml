@@ -54,6 +54,8 @@ plugin_modules:
     settings:
       admin_layout: /theme/[theme]/layout/main.yml
       item: 'yml:/../buto_data/theme/[theme]/plugin_db_sync_v1_item.yml'
+  html_to_yml:
+    plugin: 'buto/html_to_yml'
 plugin:
   readme:
     yml:
