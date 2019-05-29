@@ -56,6 +56,8 @@ plugin_modules:
       item: 'yml:/../buto_data/theme/[theme]/plugin_db_sync_v1_item.yml'
   html_to_yml:
     plugin: 'buto/html_to_yml'
+  str_replace:
+    plugin: 'buto/str_replace'
 plugin:
   readme:
     yml:

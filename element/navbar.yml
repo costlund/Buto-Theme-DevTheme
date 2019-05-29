@@ -141,6 +141,19 @@
                         role:
                           item:
                             - client
+                    -
+                      type: li
+                      innerHTML:
+                        -
+                          type: a
+                          innerHTML: 'String replace'
+                          attribute:
+                            href: /str_replace/form
+                            target: _blank
+                      settings:
+                        role:
+                          item:
+                            - client
             -
               type: li
               settings:
