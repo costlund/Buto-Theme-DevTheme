@@ -44,9 +44,6 @@ plugin_modules:
     settings:
       admin_layout: /theme/[theme]/layout/main.yml
       theme: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:theme'
-      ip:
-        - 127.0.0.1
-        - '::1'
   i18n:
     plugin: 'i18n/json_v1'
   dbsync:
