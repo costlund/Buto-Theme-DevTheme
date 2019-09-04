@@ -133,9 +133,22 @@
                       innerHTML:
                         -
                           type: a
-                          innerHTML: 'HTML to YML'
+                          innerHTML: 'HTML to Element(YML)'
                           attribute:
                             href: /html_to_yml/form
+                            target: _blank
+                      settings:
+                        role:
+                          item:
+                            - client
+                    -
+                      type: li
+                      innerHTML:
+                        -
+                          type: a
+                          innerHTML: 'JSON to YML'
+                          attribute:
+                            href: /json_to_yml/form
                             target: _blank
                       settings:
                         role:
