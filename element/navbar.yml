@@ -167,6 +167,19 @@
                         role:
                           item:
                             - client
+                    -
+                      type: li
+                      innerHTML:
+                        -
+                          type: a
+                          innerHTML: 'Editor'
+                          attribute:
+                            href: /editor/desktop
+                            target: _blank
+                      settings:
+                        role:
+                          item:
+                            - client
             -
               type: li
               settings:

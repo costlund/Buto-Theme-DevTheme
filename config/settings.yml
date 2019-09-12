@@ -57,6 +57,8 @@ plugin_modules:
     plugin: 'buto/json_to_yml'
   str_replace:
     plugin: 'buto/str_replace'
+  editor:
+    plugin: 'wf/editor'
 plugin:
   readme:
     yml:
