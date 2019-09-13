@@ -6,6 +6,10 @@ i18n:
   languages:
     - sv
 plugin_modules:
+  mailqueueadmin:
+    plugin: 'mail/queue_admin'
+    settings:
+      admin_layout: /theme/[theme]/layout/main.yml
   d:
     plugin: 'wf/doc'
   account:

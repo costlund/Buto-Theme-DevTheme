@@ -7,3 +7,4 @@ _any_key_:
     password: '******'
   schema:
     - '/plugin/wf/account2/mysql/schema.yml'
+  'mail/queue_admin': true
