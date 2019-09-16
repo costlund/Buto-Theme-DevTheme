@@ -85,7 +85,7 @@ content:
             attribute:
               rel: icon
               type: 'image/x-icon'
-              href: '/theme/[theme]/logo/logo.png?x=2'
+              href: '/theme/[theme]/icon/link_icon.png?x=2'
           -
             type: widget
             data:

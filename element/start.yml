@@ -54,7 +54,7 @@
                     -
                       type: img
                       attribute:
-                        src: '/theme/[theme]/logo/logo.png'
+                        src: '/theme/[theme]/icon/link_icon.png'
                         style: 'width:200px'
             -
               type: div
