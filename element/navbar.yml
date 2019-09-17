@@ -50,12 +50,12 @@
                 text: 'String replace'
                 href: /str_replace/form
                 target: _blank
-              -
-                text: 'Editor'
-                href: /editor/desktop
           -
             text: MySql
             href: /dbsync/start
+          -
+            text: 'Editor'
+            href: /editor/desktop
         item_right:
           -
             type: text
@@ -270,19 +270,6 @@
                         role:
                           item:
                             - client
-                    -
-                      type: li
-                      innerHTML:
-                        -
-                          type: a
-                          innerHTML: 'Editor'
-                          attribute:
-                            href: /editor/desktop
-                            target: _blank
-                      settings:
-                        role:
-                          item:
-                            - client
             -
               type: li
               settings:
@@ -296,6 +283,18 @@
                   innerHTML: MySql
                   attribute:
                     href: /dbsync/start
+            -
+              type: li
+              innerHTML:
+                -
+                  type: a
+                  innerHTML: 'Editor'
+                  attribute:
+                    href: /editor/desktop
+              settings:
+                role:
+                  item:
+                    - client
         -
           type: ul
           attribute:

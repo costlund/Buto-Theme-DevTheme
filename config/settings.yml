@@ -37,7 +37,6 @@ plugin_modules:
   users:
     plugin: 'account/admin_v1'
     settings:
-      mysql: 'yml:/../buto_data/theme/[theme]/mysql.yml'
       admin_layout: /theme/[theme]/layout/main.yml
   plugin_analysis:
     plugin: 'plugin/analysis'
