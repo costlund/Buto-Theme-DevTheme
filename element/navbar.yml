@@ -90,15 +90,6 @@
                     allow: true
                     item:
                       - client
-              -
-                text: Users
-                href: /users/desktop
-                settings:
-                  role:
-                    allow: true
-                    item:
-                      - webmaster
-  
 -
   type: nav
   settings:
@@ -353,29 +344,6 @@
                           allow: true
                           item:
                             - client
-                    -
-                      type: li
-                      attribute:
-                        class: divider
-                      settings:
-                        role:
-                          allow: true
-                          item:
-                            - webmaster
-                    -
-                      type: li
-                      innerHTML:
-                        -
-                          type: a
-                          innerHTML: Users
-                          attribute:
-                            href: /users/desktop
-                          settings: null
-                      settings:
-                        role:
-                          allow: true
-                          item:
-                            - webmaster
         -
           type: p
           innerHTML:
