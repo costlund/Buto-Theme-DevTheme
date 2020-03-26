@@ -1,4 +1,8 @@
 history:
+  '1.0.2':
+    date: '2020-03-26'
+    title: Pull repos existing environment
+    description: Add file git/pull_theme_dev_theme.sh to pull this theme into existing environment.
   '1.0.1':
     date: '2020-03-16'
     title: Pull repos
