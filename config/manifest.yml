@@ -1,4 +1,8 @@
 history:
+  '1.0.3':
+    date: '2020-06-01'
+    title: Wider layout
+    description: Using class container-fluid in main.yml file.
   '1.0.2':
     date: '2020-03-26'
     title: Pull repos existing environment

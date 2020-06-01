@@ -10,7 +10,7 @@ content:
   -
     type: div
     attribute:
-      class: container
+      class: container-fluid
       style: 'min-height:500px'
     innerHTML: ''
   -
