@@ -11,7 +11,7 @@ content:
     type: div
     attribute:
       class: container-fluid
-      style: 'min-height:500px'
+      style: 'min-height:500px;margin-top:10px'
     innerHTML: ''
   -
     type: div
