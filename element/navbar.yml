@@ -50,6 +50,10 @@
                 text: 'String replace'
                 href: /str_replace/form
                 target: _blank
+              -
+                text: 'Unique rows'
+                href: /unique_rows/form
+                target: _blank
           -
             text: MySql
             href: /dbsync/start
@@ -256,6 +260,19 @@
                           innerHTML: 'String replace'
                           attribute:
                             href: /str_replace/form
+                            target: _blank
+                      settings:
+                        role:
+                          item:
+                            - client
+                    -
+                      type: li
+                      innerHTML:
+                        -
+                          type: a
+                          innerHTML: 'Unique rows'
+                          attribute:
+                            href: /unique_rows/form
                             target: _blank
                       settings:
                         role:

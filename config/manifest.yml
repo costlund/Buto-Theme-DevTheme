@@ -1,4 +1,8 @@
 history:
+  '1.1.0':
+    date: '2020-08-25'
+    title: Unique rows
+    description: 'Add page to render unique rows.'
   '1.0.3':
     date: '2020-06-01'
     title: Wider layout

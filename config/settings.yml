@@ -58,6 +58,8 @@ plugin_modules:
     plugin: 'buto/html_to_yml'
   json_to_yml:
     plugin: 'buto/json_to_yml'
+  unique_rows:
+    plugin: 'buto/unique_rows'
   str_replace:
     plugin: 'buto/str_replace'
   editor:
