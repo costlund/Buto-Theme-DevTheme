@@ -1,4 +1,8 @@
 history:
+  '1.1.1':
+    date: '2020-10-28'
+    title: 'Bootstrap 4'
+    description: 'Add Bootstrap 4 support starting with PluginLabSync.'
   '1.1.0':
     date: '2020-08-25'
     title: Unique rows
