@@ -9,7 +9,7 @@ plugin_modules:
   mailqueueadmin:
     plugin: 'mail/queue_admin'
     settings:
-      admin_layout: /theme/[theme]/layout/main.yml
+      admin_layout: /theme/[theme]/layout/main_bs4.yml
   d:
     plugin: 'wf/doc'
   account:
@@ -37,7 +37,7 @@ plugin_modules:
   users:
     plugin: 'account/admin_v1'
     settings:
-      admin_layout: /theme/[theme]/layout/main.yml
+      admin_layout: /theme/[theme]/layout/main_bs4.yml
   plugin_analysis:
     plugin: 'plugin/analysis'
     settings:
