@@ -41,7 +41,7 @@ plugin_modules:
   plugin_analysis:
     plugin: 'plugin/analysis'
     settings:
-      admin_layout: /theme/[theme]/layout/main.yml
+      admin_layout: /theme/[theme]/layout/main_bs4.yml
   sync:
     plugin: 'lab/sync'
     settings:
