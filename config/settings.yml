@@ -1,4 +1,4 @@
-dump: true
+dump: false
 default_class: d
 default_method: home
 i18n:
