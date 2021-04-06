@@ -1,7 +1,7 @@
 settings:
   layout:
     - html
-    - main
+    - main_bs4
   title: Mercury
 content:
   -

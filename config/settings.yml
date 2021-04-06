@@ -67,30 +67,11 @@ plugin_modules:
     settings:
       admin_layout: /theme/[theme]/layout/main.yml
 plugin:
+  theme:
+    include:
+      enabled: true
   readme:
     yml:
-      enabled: true
-  i18n:
-    json_v1:
-      enabled: true
-  twitter:
-    bootstrap335v:
-      enabled: true
-  bootstrap:
-    bootswatch_v337:
-      enabled: true
-  wf:
-    bootstrapjs:
-      enabled: true
-    dom:
-      enabled: true
-    ajax:
-      enabled: true
-    callbackjson:
-      enabled: true
-    embed:
-      enabled: true
-    account2:
       enabled: true
 events:
   shutdown:

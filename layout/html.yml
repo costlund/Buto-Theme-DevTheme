@@ -16,81 +16,12 @@ content:
           -
             type: widget
             data:
-              plugin: twitter/bootstrap335v
-              method: all
-              data: null
-          -
-            type: widget
-            data:
-              plugin: bootstrap/bootswatch_v337
-              method: include
-              data:
-                theme: Simplex
-#- Cerulean
-#- Cosmo
-#- Cyborg
-#- Darkly
-#- Flatly
-#- Journal
-#- Lumen
-#- Paper
-#- Readable
-#- Sandstone
-#- Simplex
-#- Slate
-#- Spacelab
-#- Superhero
-#- United
-#- Yeti
-          -
-            type: widget
-            data:
-              plugin: wf/bootstrapjs
-              method: include
-              data: null
-          -
-            type: widget
-            data:
-              plugin: wf/dom
-              method: include
-              data: null
-          -
-            type: widget
-            data:
-              plugin: wf/callbackjson
-              method: include
-              data: null
-          -
-            type: widget
-            data:
-              plugin: wf/account2
-              method: include
-              data: null
-          -
-            type: widget
-            data:
-              plugin: i18n/json_v1
+              plugin: 'theme/include'
               method: include
           -
             type: script
             attribute:
               src: '/theme/[theme]/function.js'
-          -
-            type: widget
-            data:
-              plugin: wf/ajax
-              method: include
-          -
-            type: link
-            attribute:
-              rel: icon
-              type: 'image/x-icon'
-              href: '/theme/[theme]/icon/link_icon.png?x=2'
-          -
-            type: widget
-            data:
-              plugin: form/form_v1
-              method: include
       body:
         type: body
         innerHTML: body...

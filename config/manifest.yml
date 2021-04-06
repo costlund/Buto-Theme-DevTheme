@@ -1,33 +1,37 @@
 history:
-  '1.1.4':
+  1.2.0:
+    date: '2021-04-06'
+    title: 'Bootstrap'
+    description: 'Add Bootstrap 4 support for Home and MySql.'
+  1.1.4:
     date: '2020-11-06'
     title: 'Dump'
     description: 'Stop dumping data.'
-  '1.1.3':
+  1.1.3:
     date: '2020-10-29'
     title: 'Bootstrap 4'
     description: 'Add Bootstrap 4 support for PluginPluginAnalysis.'
-  '1.1.2':
+  1.1.2:
     date: '2020-10-29'
     title: 'Bootstrap 4'
     description: 'Add Bootstrap 4 support for PluginMailQueue_admin and PluginAccountAdmin_v1.'
-  '1.1.1':
+  1.1.1:
     date: '2020-10-28'
     title: 'Bootstrap 4'
     description: 'Add Bootstrap 4 support starting with PluginLabSync.'
-  '1.1.0':
+  1.1.0:
     date: '2020-08-25'
     title: Unique rows
     description: 'Add page to render unique rows.'
-  '1.0.3':
+  1.0.3:
     date: '2020-06-01'
     title: Wider layout
     description: Using class container-fluid in main.yml file.
-  '1.0.2':
+  1.0.2:
     date: '2020-03-26'
     title: Pull repos existing environment
     description: Add file git/pull_theme_dev_theme.sh to pull this theme into existing environment.
-  '1.0.1':
+  1.0.1:
     date: '2020-03-16'
     title: Pull repos
     description: Add file git/pull.sh to pull all repos.
