@@ -47,6 +47,7 @@ plugin_modules:
     settings:
       admin_layout: /theme/[theme]/layout/main_bs4.yml
       theme: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:theme'
+      remote: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:remote'
   i18n:
     plugin: 'i18n/json_v1'
   dbsync:
