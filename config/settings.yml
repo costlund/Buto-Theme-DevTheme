@@ -22,6 +22,8 @@ plugin_modules:
         change_email: false
         change_password: false
         two_factor_authentication: false
+        remember: true
+        remember_signout_username: true
       two_factor_authentication:
         key_timeout: 600
       mysql: 'yml:/../buto_data/theme/[theme]/mysql.yml'
@@ -46,8 +48,6 @@ plugin_modules:
     plugin: 'lab/sync'
     settings:
       admin_layout: /theme/[theme]/layout/main_bs4.yml
-      theme: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:theme'
-      remote: 'yml:/../buto_data/theme/[theme]/plugin_lab_sync.yml:remote'
   i18n:
     plugin: 'i18n/json_v1'
   dbsync:
@@ -95,10 +95,7 @@ events:
     -
       plugin: 'wf/dump'
       method: dump
-
-
-
-
-
-
-
+  load_theme_config_settings_after:
+    -
+      plugin: 'wf/account2'
+      method: signin
