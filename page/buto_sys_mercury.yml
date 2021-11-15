@@ -13,6 +13,7 @@ content:
         type: div
         attribute:
           class: col-md-12
+          id: div_readme_yml_parse
         innerHTML:
           -
             type: widget
@@ -22,9 +23,6 @@ content:
               data:
                 file: /sys/mercury/readme.yml
                 save: /sys/mercury/README.md
-
-        
-        
-        
-        
-        
+      -
+        type: style
+        innerHTML: '#div_readme_yml_parse pre{ border: solid 1px gray; padding: 5px;}'
