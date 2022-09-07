@@ -1,5 +1,9 @@
-version: 1.4.0
+version: 1.4.1
 history:
+  1.4.1:
+    date: '2022-09-07'
+    title: 'Language'
+    description: 'Change language from sv to en.'
   1.4.0:
     date: '2021-11-15'
     title: 'wf/account2, lab/sync'

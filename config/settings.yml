@@ -2,9 +2,9 @@ dump: false
 default_class: d
 default_method: home
 i18n:
-  language: sv
+  language: en
   languages:
-    - sv
+    - en
 plugin_modules:
   mailqueueadmin:
     plugin: 'mail/queue_admin'
