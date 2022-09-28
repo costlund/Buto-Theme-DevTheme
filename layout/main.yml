@@ -29,3 +29,8 @@ content:
             attribute:
               class: col-md-12
             innerHTML: 
+  -
+    type: widget
+    data:
+        plugin: navigator/online
+        method: modal

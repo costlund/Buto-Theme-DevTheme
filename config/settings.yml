@@ -74,6 +74,9 @@ plugin:
   readme:
     yml:
       enabled: true
+  navigator:
+    online:
+      enabled: true
 events:
   shutdown:
     -
