@@ -53,7 +53,7 @@ plugin_modules:
   dbsync:
     plugin: 'db/sync_v1'
     settings:
-      admin_layout: /theme/[theme]/layout/main.yml
+      admin_layout: /theme/[theme]/layout/main_bs4.yml
       item: 'yml:/../buto_data/theme/[theme]/plugin_db_sync_v1_item.yml'
   html_to_yml:
     plugin: 'buto/html_to_yml'
