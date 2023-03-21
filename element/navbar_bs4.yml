@@ -52,6 +52,9 @@
                 text: 'Unique rows'
                 href: /unique_rows/form
                 target: _blank
+              -
+                text: 'Password Generator'
+                href: /password/generator
           -
             text: MySql
             href: /dbsync/start
