@@ -18,6 +18,9 @@ content:
             data:
               plugin: 'theme/include'
               method: include
+              data:
+                bootstrap:
+                  version: 5
           -
             type: script
             attribute:

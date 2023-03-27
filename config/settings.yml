@@ -66,7 +66,7 @@ plugin_modules:
   editor:
     plugin: 'wf/editor'
     settings:
-      admin_layout: /theme/[theme]/layout/main.yml
+      admin_layout: /theme/[theme]/layout/main_bs4.yml
   password:
     plugin: 'password/generator'
     settings:
