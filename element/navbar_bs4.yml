@@ -59,6 +59,9 @@
             text: MySql
             href: /dbsync/start
           -
+            text: Spec
+            href: /spec/start
+          -
             text: 'Editor'
             href: /editor/desktop
         item_right:

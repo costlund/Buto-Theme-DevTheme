@@ -65,3 +65,13 @@ filter:
   theme: my/theme
 ```
 
+### Spec
+Check plugin spec/list how to setup items.
+```
+plugin_modules:
+  spec:
+    plugin: 'spec/list'
+    settings:
+      admin_layout: /theme/[theme]/layout/main_bs4.yml
+      item: '/../buto_data/theme/[theme]/plugin_spec_list.yml'
+```

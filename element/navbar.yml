@@ -195,6 +195,19 @@
                     href: /dbsync/start
             -
               type: li
+              settings:
+                role:
+                  allow: true
+                  item:
+                    - webmaster
+              innerHTML:
+                -
+                  type: a
+                  innerHTML: Spec
+                  attribute:
+                    href: /spec/start
+            -
+              type: li
               innerHTML:
                 -
                   type: a

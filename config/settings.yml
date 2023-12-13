@@ -71,6 +71,11 @@ plugin_modules:
     plugin: 'password/generator'
     settings:
       admin_layout: /theme/[theme]/layout/main_bs4.yml
+  spec:
+    plugin: 'spec/list'
+    settings:
+      admin_layout: /theme/[theme]/layout/main_bs4.yml
+      item: '/../buto_data/theme/[theme]/plugin_spec_list.yml'
 plugin:
   theme:
     include:

@@ -1,5 +1,9 @@
-version: 1.7.0
+version: 1.8.0
 history:
+  1.8.0:
+    date: '2023-12-13'
+    title: Spec
+    description: 'Add spec support.'
   1.7.0:
     date: '2023-03-27'
     title: Bootstrap
