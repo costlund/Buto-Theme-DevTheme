@@ -4,19 +4,6 @@
     plugin: 'bootstrap/navbar_v1'
     method: navbar
     data:
-      _: 'https://getbootstrap.com/docs/4.0/components/navbar/'
-      brand:
-        -
-          type: a
-          attribute:
-            class: navbar-brand
-            href: /
-          innerHTML:
-            -
-              type: img
-              attribute:
-                src: '/theme/[theme]/icon/link_icon.png'
-                style: 'width:18px'
       navbar:
         id: _my_navbar_id_
         item:
@@ -26,44 +13,49 @@
           -
             text: Plugin
             href: /plugin_analysis/start
+            icon: /plugin/plugin/analysis/icon/icon.png
           -
             text: Files
             href: /sync/start
+            icon: /plugin/lab/sync/icon/icon.png
           -
             text: Mercury
             href: /buto_sys_mercury
-          -
-            type: dropdown
-            text: Tools
-            item:
-              -
-                text: 'HTML to Element(YML)'
-                href: /html_to_yml/form
-                target: _blank
-              -
-                text: 'JSON to YML'
-                href: /json_to_yml/form
-                target: _blank
-              -
-                text: 'String replace'
-                href: /str_replace/form
-                target: _blank
-              -
-                text: 'Unique rows'
-                href: /unique_rows/form
-                target: _blank
-              -
-                text: 'Password Generator'
-                href: /password/generator
+            icon: /theme/dev/theme/icon/link_icon.png
           -
             text: MySql
             href: /dbsync/start
+            icon: /plugin/db/sync_v1/icon/icon.png
+            img_style:
+              height: 17px
           -
             text: Spec
             href: /spec/start
+            icon: /plugin/spec/list/icon/link_icon.png
           -
             text: 'Editor'
             href: /editor/desktop
+            icon: /theme/dev/theme/icon/link_icon.png
+          -
+            type: dropdown
+            text: Tools
+            icon: tools
+            item:
+              -
+                text: 'HTML to Element(YML)'
+                onclick: "PluginWfBootstrapjs.modal({id: 'modal_html_to_yml', url: '/html_to_yml/form', label: this.innerHTML, size: 'xl'})"
+              -
+                text: 'JSON to YML'
+                onclick: "PluginWfBootstrapjs.modal({id: 'modal_json_to_yml', url: '/json_to_yml/form', label: this.innerHTML, size: 'xl'})"
+              -
+                text: 'String replace'
+                onclick: "PluginWfBootstrapjs.modal({id: 'modal_str_replace', url: '/str_replace/form', label: this.innerHTML, size: 'xl'})"
+              -
+                text: 'Unique rows'
+                onclick: "PluginWfBootstrapjs.modal({id: 'modal_unique_rows', url: '/unique_rows/form', label: this.innerHTML, size: 'xl'})"
+              -
+                text: 'Password Generator'
+                onclick: "PluginWfBootstrapjs.modal({id: 'modal_password', url: '/password/generator', label: this.innerHTML, size: 'xl'})"
         item_right:
           -
             type: text
