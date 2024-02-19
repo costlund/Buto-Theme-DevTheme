@@ -1,5 +1,9 @@
-version: 1.9.0
+version: 1.10.0
 history:
+  1.10.0:
+    date: '2024-02-19'
+    title: Crypt
+    description: 'Add Crypt in Tools menu.'
   1.9.0:
     date: '2023-12-13'
     title: Icons, Tools

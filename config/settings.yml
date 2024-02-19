@@ -76,6 +76,8 @@ plugin_modules:
     settings:
       admin_layout: /theme/[theme]/layout/main_bs4.yml
       item: '/../buto_data/theme/[theme]/plugin_spec_list.yml'
+  crypt:
+    plugin: 'wf/crypt'
 plugin:
   theme:
     include:

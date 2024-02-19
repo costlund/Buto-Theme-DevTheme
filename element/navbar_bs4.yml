@@ -56,6 +56,9 @@
               -
                 text: 'Password Generator'
                 onclick: "PluginWfBootstrapjs.modal({id: 'modal_password', url: '/password/generator', label: this.innerHTML, size: 'xl'})"
+              -
+                text: 'Crypt'
+                onclick: "PluginWfBootstrapjs.modal({id: 'modal_crypt', url: '/crypt/desktop', label: this.innerHTML, size: 'xl'})"
         item_right:
           -
             type: text
