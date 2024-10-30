@@ -88,6 +88,48 @@ plugin:
   navigator:
     online:
       enabled: true
+  mail:
+    queue_admin:
+      enabled: true
+  wf:
+    doc:
+      enabled: true
+    account2:
+      enabled: true
+    editor:
+      enabled: true
+    crypt:
+      enabled: true
+  account:
+    admin_v1:
+      enabled: true
+  plugin:
+    analysis:
+      enabled: true
+  lab:
+    sync:
+      enabled: true
+  i18n:
+    json_v1:
+      enabled: true
+  db:
+    sync_v1:
+      enabled: true
+  buto:
+    html_to_yml:
+      enabled: true
+    json_to_yml:
+      enabled: true
+    unique_rows:
+      enabled: true
+    str_replace:
+      enabled: true
+  password:
+    generator:
+      enabled: true
+  spec:
+    list:
+      enabled: true
 events:
   shutdown:
     -
