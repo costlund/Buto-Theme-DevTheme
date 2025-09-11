@@ -51,6 +51,9 @@
                 text: 'String replace'
                 onclick: "PluginWfBootstrapjs.modal({id: 'modal_str_replace', url: '/str_replace/form', label: this.innerHTML, size: 'xl'})"
               -
+                text: 'String right/left'
+                onclick: "PluginWfBootstrapjs.modal({id: 'modal_str_right_left', url: '/str_right_left/form', label: this.innerHTML, size: 'xl'})"
+              -
                 text: 'Unique rows'
                 onclick: "PluginWfBootstrapjs.modal({id: 'modal_unique_rows', url: '/unique_rows/form', label: this.innerHTML, size: 'xl'})"
               -

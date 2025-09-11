@@ -63,6 +63,8 @@ plugin_modules:
     plugin: 'buto/unique_rows'
   str_replace:
     plugin: 'buto/str_replace'
+  str_right_left:
+    plugin: 'buto/str_right_left'
   editor:
     plugin: 'wf/editor'
     settings:
