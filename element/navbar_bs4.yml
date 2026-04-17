@@ -11,30 +11,8 @@
             text: Home
             href: '/'
           -
-            text: Plugin
-            href: /plugin_analysis/start
-            icon: /plugin/plugin/analysis/icon/icon.png
-          -
-            text: Files
-            href: /sync/start
-            icon: /plugin/lab/sync/icon/icon.png
-          -
             text: Mercury
             href: /buto_sys_mercury
-            icon: /theme/dev/theme/icon/link_icon.png
-          -
-            text: MySql
-            href: /dbsync/start
-            icon: /plugin/db/sync_v1/icon/icon.png
-            img_style:
-              height: 17px
-          -
-            text: Spec
-            href: /spec/start
-            icon: /plugin/spec/list/icon/link_icon.png
-          -
-            text: 'Editor'
-            href: /editor/desktop
             icon: /theme/dev/theme/icon/link_icon.png
           -
             type: dropdown
@@ -62,9 +40,72 @@
               -
                 text: 'Crypt'
                 onclick: "PluginWfBootstrapjs.modal({id: 'modal_crypt', url: '/crypt/desktop', label: this.innerHTML, size: 'xl'})"
+          -
+            text: Plugin
+            href: /plugin_analysis/start
+            icon: /plugin/plugin/analysis/icon/icon.png
+            settings:
+              role:
+                item:
+                  - client
+          -
+            text: Files
+            href: /sync/start
+            icon: /plugin/lab/sync/icon/icon.png
+            settings:
+              role:
+                item:
+                  - client
+          -
+            text: MySql
+            href: /dbsync/start
+            icon: /plugin/db/sync_v1/icon/icon.png
+            img_style:
+              height: 17px
+            settings:
+              role:
+                item:
+                  - client
+          -
+            text: Spec
+            href: /spec/start
+            icon: /plugin/spec/list/icon/link_icon.png
+            settings:
+              role:
+                item:
+                  - client
+          -
+            text: 'Editor'
+            href: /editor/desktop
+            icon: /theme/dev/theme/icon/link_icon.png
+            settings:
+              role:
+                item:
+                  - client
         item_right:
           -
-            type: text
+            type: dropdown
+            text:
+              -
+                type: widget
+                data:
+                  plugin: 'icons/octicons'
+                  method: svg
+                  data:
+                    name: person
+              -
+                type: span
+                innerHTML: Account
+            settings:
+              role:
+                item:
+                  - unknown
+            item:
+              -
+                text: 'Sign in'
+                onclick: "Theme.signin(this.innerHTML)"
+          -
+            type: dropdown
             text:
               -
                 type: widget
@@ -76,23 +117,11 @@
               -
                 type: span
                 innerHTML: 'globals:_SESSION/username'
-          -
-            type: dropdown
-            text: Account
+            settings:
+              role:
+                item:
+                  - client
             item:
-              -
-                text: 'Sign in'
-                onclick: "Theme.signin(this.innerHTML)"
-                settings:
-                  role:
-                    allow: false
-                    item:
-                      - client
               -
                 text: 'Sign out'
                 href: /account/signout
-                settings:
-                  role:
-                    allow: true
-                    item:
-                      - client
